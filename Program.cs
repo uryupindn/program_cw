@@ -16,6 +16,7 @@ string[] GetArrayFromString(string array) //1) задаем функцию, ко
         result[i]=Convert.ToString(arS[i]);
     }
     return result;
+}
 string[] CheckElements(string[] array) //2) задаем функцию, которая проверяет массив по условию задачи и формирует новый массив, которые состоит из элементов, которые удовл условию задачи
 {
     int index=0;
