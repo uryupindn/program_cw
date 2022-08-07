@@ -27,3 +27,15 @@ string[] CheckElements(string[] array) //2) задаем функцию, кот�
         index++;
         }
     }
+    string[] result=new string[index];
+    index=0;
+    for(int i=0; i < array.Length; i++)
+    {
+        if(array[i].Length<=n)
+            {
+            result[index]=array[i];
+            index++;
+            }
+    }
+    return result;
+}
